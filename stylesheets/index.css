@@ -12,19 +12,19 @@ body {
 /* font */
 @font-face {
   font-family: Proxima Nova;
-  src: url('./font/ProximaNova-Regular.otf');
+  src: url('../font/ProximaNova-Regular.otf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Proxima Nova;
-  src: url('./font/Proxima-Nova-Thin.otf');
+  src: url('../font/Proxima-Nova-Thin.otf');
   font-weight: 300;
 }
 
 @font-face {
   font-family: Proxima Nova;
-  src: url('./font/Proxima-Nova-Semibold.otf');
+  src: url('../font/Proxima-Nova-Semibold.otf');
   font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ body {
 .header__apply-link {
   margin-left: auto;
   text-transform: uppercase;
-  color: white;
+  color: white !important;
   text-decoration: none;
   font-size: 16px;
   font-family: Proxima Nova;
@@ -71,10 +71,10 @@ body {
 .footer {
   background: #4F4F4F;
   color: white;
-  padding: 17px;
-  font: 14px Proxima Nova;
-  letter-spacing: 5%;
-  padding-left: 10%;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: Proxima Nova;
 }
 
 /* MAIN */
@@ -392,4 +392,31 @@ em {
 
 .pl-32 {
   padding-left: 32px;
+}
+
+.modal-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  padding-left: 16px;
+}
+
+.modal-body {
+  padding: 16px 30px;
+}
+
+
+.modal-body p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.modal-body strong {
+  color: #2BA2F8
 }
